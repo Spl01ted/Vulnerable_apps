@@ -52,9 +52,9 @@
 
 ### 1. Navigate to your basket and cathc this request with burp(/rest/busket/{id})
 
-### 2.Change the id parameter of your busket.
+### 2.Change the id parameter of your basket.
 
-### 3. Notice that you can view another user busket, without any authorization
+### 3. Notice that you can view another user basket, without any authorization
 
 #### My basket before an attack
 
