@@ -1,4 +1,6 @@
-# **DOM XSS on search field**
+# **Juice Shop**
+
+# DOM XSS on search field
 
 ### 1. Go to the root page of the application
 ### 2. In the search field paste the following payload
