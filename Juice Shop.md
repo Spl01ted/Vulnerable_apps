@@ -8,7 +8,7 @@
 <img src=x onerror=alert(1)>
 ```
 
-![[Screenshot_20260413_203236.png]]
+
 
 ## SQLi on login form, allowing authenthication bypass
 
@@ -23,7 +23,7 @@
 ### **Note:**
 > Same vulnerbility can bring to privilege escaltion, if you use ' OR 1=1-- in the empty email field, gaining access to admin fucntionality
 
-![[Screenshot_20260413_203946.png]]
+
 
 ## JWT none algorithm attack
 
@@ -33,7 +33,7 @@
 
 ### 3. Notice that your request contains a JWT token, base64 decode it.
 
-![[Screenshot_20260413_205307.png]]  
+
 
 ### 4. Note that the id field seems very interesting, now logout from this account and then login to the second account, do the same operations and remember the id of this account(in my case it's 23)
 
@@ -54,11 +54,11 @@
 
 #### My basket before an attack
 
-![[Screenshot_20260414_111951.png]]
+
 
 #### And after an attack
 
-![[Screenshot_20260414_112027.png]]
+
 
 
 ## BOLA at order confirmation
@@ -71,11 +71,10 @@
 
 #### Order before an attack
 
-![[Screenshot_20260414_113645.png]]
 
 #### And after an attack
 
-![[Screenshot_20260414_113705.png]]
+
 
 
 
