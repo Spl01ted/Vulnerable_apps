@@ -27,6 +27,8 @@ Priority: u=4
 
 ### 4.Change your username parameter to admin
 
+<img width="1539" height="748" alt="Screenshot_20260415_112854" src="https://github.com/user-attachments/assets/d14d4515-7433-4291-bbb1-60c729df2284" />
+
 
 ## API2:2023 Broken Authentication
 
@@ -56,6 +58,8 @@ If you did everything correct, then the secret should be _secret123_
 
 ### 5.Replace your old JWT with this new JWT and click send
 
+<img width="1532" height="699" alt="Screenshot_20260415_120039" src="https://github.com/user-attachments/assets/1401d54c-5511-4a17-8029-3d989fc4c493" />
+
 
 ## API3:2023 Broken Object property level authorization
 
@@ -65,9 +69,14 @@ If you did everything correct, then the secret should be _secret123_
 "score":2000
 ```
 
+<img width="1186" height="555" alt="Screenshot_20260418_234550" src="https://github.com/user-attachments/assets/3679f516-d9b0-4543-9727-ef8492cd0074" />
+
+
 ## 2.Login to that account
 
 ## 3. Go to the scoreboard page and you will see that the score of your user is 2000
+
+<img width="1357" height="521" alt="Screenshot_20260418_234506" src="https://github.com/user-attachments/assets/b397ab35-b333-4548-8c34-c3da2254fb61" />
 
 
 ## API4:2023 Unrestricted resource consumption
@@ -88,6 +97,8 @@ If you did everything correct, then the secret should be _secret123_
 
 ## 4. Make a request with DELETE method and you can see that you can delete this user.
 
+<img width="1532" height="708" alt="Screenshot_20260419_000106" src="https://github.com/user-attachments/assets/92dc06a1-8d60-4d59-9faa-71d069529abb" />
+
 
 ## API6:2023 Server side request forgery
 
@@ -99,6 +110,8 @@ If you did everything correct, then the secret should be _secret123_
 
 `http://localhost:8443`
 
+<img width="1541" height="740" alt="Screenshot_20260419_001558" src="https://github.com/user-attachments/assets/cfdc80ce-a95a-4d0b-a244-6b7986a3f479" />
+
 
 ## API7:2023 Security Misconfiguration
 
@@ -106,6 +119,7 @@ If you did everything correct, then the secret should be _secret123_
 
 ## 2.Send request staying logged in by sending with invalid JWT token(e.g changing the "isAdmin" field to true).
 
+<img width="1534" height="741" alt="Screenshot_20260419_002050" src="https://github.com/user-attachments/assets/b6023ead-5db0-47ca-8c7b-f4cba998e374" />
 
 ## API8:2023 Unsafe consumption of APIs
 
@@ -116,6 +130,8 @@ If you did everything correct, then the secret should be _secret123_
 ```json
 {"username":"admin","password":{"$ne":null } }
 ```
+
+<img width="1543" height="748" alt="Screenshot_20260419_002449" src="https://github.com/user-attachments/assets/a18d5733-366f-446f-be76-a48876f681b1" />
 
 
 ## API9:2023 Lack of protection from automated threats
@@ -128,6 +144,8 @@ If you did everything correct, then the secret should be _secret123_
 
 ## 4. You can see that there is no rate limitings
 
+<img width="1269" height="655" alt="Screenshot_20260419_003211" src="https://github.com/user-attachments/assets/2e7c1c8d-b31e-4376-b186-2d755a07a57c" />
+
 
 ## API10:2023 Improper assets management
 
@@ -136,4 +154,7 @@ If you did everything correct, then the secret should be _secret123_
 ## 2. Go to the challanges page with `released:1` JSON
 
 ## 3. Change the `released` to `unreleased`
+
+<img width="1532" height="740" alt="Screenshot_20260419_003715" src="https://github.com/user-attachments/assets/9be03573-80c5-47bb-8ea6-bd6430f0a265" />
+
 
